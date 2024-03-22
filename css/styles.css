@@ -27,7 +27,7 @@ ul {
     overflow: hidden;
 }
 
-/* header */
+/*-------- header -----------*/
 
 .header-logo {
 font-weight: 700;
@@ -51,6 +51,11 @@ letter-spacing: 0.02em;
 color: #2e2f42; 
 }
 
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: #404bbf;
+}
+
 .header-contacts {
     font-style: normal;
 }
@@ -69,6 +74,10 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+
+/*------------------ Main ----------------*/
+
+/*---------------- Effective Solutions ----------------*/
 .hero {
     background: #2e2f42;
     width: 1440px;
@@ -85,26 +94,28 @@ color: #2e2f42;
 }
 
 .hero-button {
+    font-weight: 500;
 border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         cursor: pointer;
+
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
 }
 
 .hero-button:hover {
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
-.hero-button-text {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
+
 }
 
 /* About us */

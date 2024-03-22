@@ -130,6 +130,20 @@ color: #2e2f42;
         color: #434455;
 }
 
+/* our time */
+
+.team {
+    background: #f4f4fd;
+}
+
+.time-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
 /* footer */
 
@@ -157,4 +171,5 @@ color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-}                                   
+}     
+

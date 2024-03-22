@@ -66,8 +66,6 @@ color: #2e2f42;
 /*---------------- Effective Solutions ----------------*/
 .hero {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .hero-title {
@@ -81,9 +79,6 @@ color: #2e2f42;
 
 .hero-button {
     font-weight: 500;
-    min-width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     cursor: pointer;
     font-size: 16px;
@@ -164,6 +159,7 @@ background: #fff;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-item {

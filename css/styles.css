@@ -19,7 +19,7 @@ ul {
     height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
+
 
     white-space: nowrap;
     clip-path: inset(100%);
@@ -95,8 +95,6 @@ color: #2e2f42;
 
 .hero-button {
     font-weight: 500;
-    border-radius: 4px;
-    padding: 16px 32px;
     min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -164,6 +162,10 @@ color: #2e2f42;
         color: #434455;
 }
 
+.team-item {
+background: #fff;  
+}
+
 /* Our Portfolio */
 
 
@@ -176,7 +178,6 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize;
 }
 
 .portfolio-item {

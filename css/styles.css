@@ -35,22 +35,25 @@ font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
 }
 
-.header-logo-web {
-        color: #4d5ae5;
+.header-logo-web {    
+        color: #2e2f42;
 }
 
 .header-menu-item {
-   font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42; 
 }
 
+.header-contacts {
+    font-style: normal;
+}
 
 .header-contacts-list {
     font-weight: 400;
@@ -106,7 +109,5 @@ font-weight: 500;
 
 /* About us */
 
-.skills {
- 
-}
+
 

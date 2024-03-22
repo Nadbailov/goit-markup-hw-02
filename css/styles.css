@@ -95,30 +95,23 @@ color: #2e2f42;
 
 .hero-button {
     font-weight: 500;
-border-radius: 4px;
+    border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background-color: #4d5ae5;
-        cursor: pointer;
-
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 
-.hero-button:hover
+.hero-button:hover,
 .hero-button:focus {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #404bbf;
+    background-color: #404BBF
 }
-
-
-}
-
 /* About us */
 
 
@@ -133,7 +126,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;;
